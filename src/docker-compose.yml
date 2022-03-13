@@ -10,4 +10,5 @@ services:
       context: .
       dockerfile: Services/Catalog/Catalog.API/Dockerfile
 volumes:
+  mongo_data:
   
